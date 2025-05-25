@@ -70,8 +70,11 @@ def load_sample_data():
 
     info = """
     DATA FROM KAGGLE: \n
-    ph_school_enrollment.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
-    ph_shs_table_strand.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
+    1_screentime_analysis_jan_2025.csv: https://www.kaggle.com/datasets/flaviamonique/screetime-analysis-jan2025 \n
+    2_ph_shs_table_strand.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
+    3_ph_school_enrollment.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
+    
+
 
     """
     selected_file = st.selectbox(
