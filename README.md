@@ -4,11 +4,11 @@
 The **Load-Transform-Analyze App** is a **Streamlit-based** data analysis tool designed for easy dataset handling. It allows users to load, clean, and visualize data interactively.
 
 ## **Features**
-###🔹 **Load Data**
- 🔸Upload CSV or Excel files.  
- 🔸Load sample datasets.  
- 🔸Preview loaded data, including the first rows and the shape of the DataFrame.  
- 🔸Edit column data types using a data editor.  
+### 🔹 **Load Data**
+  🔸Upload CSV or Excel files.  
+  🔸Load sample datasets.  
+  🔸Preview loaded data, including the first rows and the shape of the DataFrame.  
+  🔸Edit column data types using a data editor.  
 
 ### 🔹 **Transform Data**
   🔸Handle missing values using various methods such:  
