@@ -21,14 +21,15 @@ The **Load-Transform-Analyze App** is a **Streamlit-based** data analysis tool d
      
 🔸Download the transformed data as a CSV file.  
 
-### 🔹 **Analyze Data**
+### **Analyze Data**
   🔸Generate summary statistics for numeric columns.  
   🔸Create interactive charts, including:  
-    - Line chart  
-    - Bar chart  
-    - Box plot  
-    - Scatter chart  
-  🔸 Customizable X and Y axes with optional color grouping. 
+   - Line chart  
+   - Bar chart  
+   - Box plot  
+   - Scatter chart
+     
+  🔸Customizable X and Y axes with optional color grouping. 
   🔸Display a correlation heatmap for numeric columns.  
   🔸Show histograms for the distribution of numeric columns.  
 
