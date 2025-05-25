@@ -5,20 +5,20 @@ The **Load-Transform-Analyze App** is a **Streamlit-based** data analysis tool d
 
 ## **Features**
 ### 🔹 **Load Data**
-✔ Upload CSV or Excel files.
-✔ Load sample datasets.
-✔ Preview loaded data, including the first rows and the shape of the DataFrame.
-✔ Edit column data types using a data editor.
+🔸Upload CSV or Excel files.
+🔸Load sample datasets.
+🔸Preview loaded data, including the first rows and the shape of the DataFrame.
+🔸Edit column data types using a data editor.
 
 ### 🔹 **Transform Data**
-✔ *   Handle missing values using various methods such as dropping rows, forward fill, backward fill, mean imputation, median imputation, and mode imputation.
-✔  *   Download the transformed data as a CSV file.
+🔸Handle missing values using various methods such as dropping rows, forward fill, backward fill, mean imputation, median imputation, and mode imputation.
+🔸Download the transformed data as a CSV file.
 
 ### 🔹 **Analyze Data**
-✔ Generate summary statistics for numeric columns.
-✔ Create interactive charts, including line charts, bar charts, box plots, and scatter charts, with customizable X and Y axes and optional color grouping. 
-✔ Display a correlation heatmap for numeric columns.
-✔ Show histograms for the distribution of numeric columns.
+🔸Generate summary statistics for numeric columns.
+🔸Create interactive charts, including line charts, bar charts, box plots, and scatter charts, with customizable X and Y axes and optional color grouping. 
+🔸Display a correlation heatmap for numeric columns.
+🔸Show histograms for the distribution of numeric columns.
 
 ## **📊 Sample Data**
 This app includes publicly available datasets from Kaggle as sample datasets: 
