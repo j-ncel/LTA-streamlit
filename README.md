@@ -39,7 +39,7 @@ This app includes publicly available datasets from Kaggle as sample datasets:
 - [`ph_shs_table_strand.csv`](https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data)  
 - [`screentime_analysis_jan_2025.csv`](https://www.kaggle.com/datasets/flaviamonique/screetime-analysis-jan2025)  
 
-## **Try It Here**
+## Try It Here
 https://load-transform-analyze.streamlit.app/  
 ** **
 
