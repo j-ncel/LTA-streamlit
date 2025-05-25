@@ -40,7 +40,8 @@ This app includes publicly available datasets from Kaggle as sample datasets:
 - [`screentime_analysis_jan_2025.csv`](https://www.kaggle.com/datasets/flaviamonique/screetime-analysis-jan2025)  
 
 ## ** Try It Here ** ##
-https://load-transform-analyze.streamlit.app/
+https://load-transform-analyze.streamlit.app/  
+
 To install dependencies:
 ```bash
 pip install -r requirements.txt
