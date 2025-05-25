@@ -29,7 +29,7 @@ The **Load-Transform-Analyze App** is a **Streamlit-based** data analysis tool d
    - Box plot  
    - Scatter chart
      
-  🔸Customizable X and Y axes with optional color grouping. 
+  🔸Customizable X and Y axes with optional color grouping.  
   🔸Display a correlation heatmap for numeric columns.  
   🔸Show histograms for the distribution of numeric columns.  
 
