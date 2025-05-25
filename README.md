@@ -17,8 +17,8 @@ The **Load-Transform-Analyze App** is a **Streamlit-based** data analysis tool d
    - Backward fill  
    - Mean imputation  
    - Median imputation  
-   - Mode imputation  
- 🔸Download the transformed data as a CSV file.  
+   - Mode imputation
+  🔸Download the transformed data as a CSV file.  
 
 ### 🔹 **Analyze Data**
   🔸Generate summary statistics for numeric columns.  
