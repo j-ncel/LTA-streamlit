@@ -4,7 +4,7 @@
 The **Load-Transform-Analyze App** is a **Streamlit-based** data analysis tool designed for easy dataset handling. It allows users to load, clean, and visualize data interactively.
 
 ## Try It Here
-https://lta-py.streamlit.app/
+lta-py.streamlit.app/
 
 ## **Features**
 ### **Load Data**
