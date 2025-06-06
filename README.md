@@ -53,6 +53,3 @@ To run the app:
 streamlit run main.py
 ```
 
-### Contributing
-Contributions are wellcome! Feel free to fork the repository, make changes and submit a pull request.
-
