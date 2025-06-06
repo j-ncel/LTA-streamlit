@@ -73,10 +73,8 @@ def load_sample_data():
     screentime_analysis_jan_2025.csv: https://www.kaggle.com/datasets/flaviamonique/screetime-analysis-jan2025 \n
     ph_shs_table_strand.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
     ph_school_enrollment.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
-    
-
-
     """
+    
     selected_file = st.selectbox(
         "Select a sample data file", files, index=0, help=info,
         on_change=lambda: st.session_state.__setitem__('transformed', False))
