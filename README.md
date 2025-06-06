@@ -3,6 +3,10 @@
 ## **Overview**
 The **Load-Transform-Analyze App** is a **Streamlit-based** data analysis tool designed for easy dataset handling. It allows users to load, clean, and visualize data interactively.
 
+## Try It Here
+https://load-transform-analyze.streamlit.app/  
+** **
+
 ## **Features**
 ### **Load Data**
   🔸Upload CSV or Excel files.  
@@ -39,8 +43,6 @@ This app includes publicly available datasets from Kaggle as sample datasets:
 - [`ph_shs_table_strand.csv`](https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data)  
 - [`screentime_analysis_jan_2025.csv`](https://www.kaggle.com/datasets/flaviamonique/screetime-analysis-jan2025)  
 
-## Try It Here
-https://load-transform-analyze.streamlit.app/  
 ** **
 
 To install dependencies:
