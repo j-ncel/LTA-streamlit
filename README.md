@@ -5,7 +5,6 @@ The **Load-Transform-Analyze App** is a **Streamlit-based** data analysis tool d
 
 ## Try It Here
 https://load-transform-analyze.streamlit.app/  
-** **
 
 ## **Features**
 ### **Load Data**
