@@ -70,16 +70,18 @@ def load_sample_data():
 
     info = """
     DATA FROM KAGGLE: \n
-    1_screentime_analysis_jan_2025.csv: https://www.kaggle.com/datasets/flaviamonique/screetime-analysis-jan2025 \n
-    2_ph_shs_table_strand.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
-    3_ph_school_enrollment.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
+    screentime_analysis_jan_2025.csv: https://www.kaggle.com/datasets/flaviamonique/screetime-analysis-jan2025 \n
+    ph_shs_table_strand.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
+    ph_school_enrollment.csv: https://www.kaggle.com/datasets/raiblaze/philippines-school-enrollment-data \n
     
 
 
     """
     selected_file = st.selectbox(
-        "Select a sample data file", files, index=0, help=info)
+        "Select a sample data file", files, index=0, help=info,
+        on_change=lambda: st.session_state.__setitem__('transformed', False))
     sample_path = os.path.join(sample_data_dir, selected_file)
+
     return sample_path
 
 
@@ -98,13 +100,13 @@ def load_data():
         st.session_state.df = pd.DataFrame()
 
     if st.session_state.get("transformed", False):
-        df = st.session_state
+        df = st.session_state.df
         st.session_state.transformed = False
     elif uploaded_file is not None and not st.session_state.get("transformed", False):
         df = load_uploaded_file(uploaded_file)
         if df is not None:
             st.session_state.df = df
-    elif st.session_state.df.empty and not st.session_state.get("transformed", False):
+    else:
         df = pd.read_csv(sample_data)
         st.session_state.df = df
 
