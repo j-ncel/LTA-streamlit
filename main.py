@@ -35,6 +35,12 @@ def main() -> None:
         unsafe_allow_html=True
     )
 
+    st.markdown("""
+    <a href="https://coff.ee/jncel" target="_blank">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="170">
+    </a>
+    """, unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
