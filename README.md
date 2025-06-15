@@ -9,6 +9,7 @@
 The **Load-Transform-Analyze App** is a **Streamlit-based** data analysis tool designed for easy dataset handling. It allows users to load, clean, and visualize data interactively.
 
 ## Try It Here
+
 [lta-py.streamlit.app](https://lta-py.streamlit.app/)
 
 ## **Features**
@@ -56,8 +57,10 @@ This app includes publicly available datasets from Kaggle as sample datasets:
 - [`screentime_analysis_jan_2025.csv`](https://www.kaggle.com/datasets/flaviamonique/screetime-analysis-jan2025)
 
 ## Try It Here
-https://load-transform-analyze.streamlit.app/  
-** **
+
+[lta-py.streamlit.app](https://lta-py.streamlit.app/)
+
+---
 
 To install dependencies:
 
@@ -72,5 +75,5 @@ streamlit run main.py
 ```
 
 ### Contributing
-Contributions are wellcome! Feel free to fork the repository, make changes and submit a pull request.
 
+Contributions are wellcome! Feel free to fork the repository, make changes and submit a pull request.
